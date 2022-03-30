@@ -1,8 +1,14 @@
 body {
   font-family: "Poppins", sans-serif;
 }
+p {
+  color: rgb(70, 68, 68);
+}
+h1 {
+  font-weight: bolder;
+}
 .light-green-bg {
-  background-color: rgb(231, 238, 231);
+  background-color: #f0fff0;
   padding-bottom: 35px;
   margin-bottom: 90px;
 }
@@ -17,6 +23,7 @@ body {
 }
 .navbar {
   padding-bottom: 35px;
+  padding-top: 20px;
 }
 .light-green-bg .navbar .navbar-nav a {
   color: black;
@@ -62,4 +69,65 @@ body {
 .cat3 {
   box-shadow: 0px 10px 40px #d6dbdf;
   border-radius: 10px;
+}
+.card-title {
+  color: purple;
+}
+.details {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.course-header {
+  padding-bottom: 50px;
+  font-weight: bolder;
+  color: purple;
+}
+.online-course img {
+  width: 90%;
+}
+.online-course .card {
+  box-shadow: 0px 10px 40px #d6dbdf;
+}
+.online-course .card-footer {
+  border: none;
+  padding-top: 10px;
+}
+.card-img-top {
+  padding-bottom: 20px;
+}
+.bd-highlight img {
+  width: 10%;
+}
+.footer-image img {
+  width: 15%;
+}
+
+.testimonial-heading {
+  font-weight: bolder;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 40px;
+}
+.last-card {
+  box-shadow: none;
+}
+.testimonial {
+  margin-bottom: 100px;
+  margin-top: 100px;
+}
+@media (min-width: 576px) and (max-width: 1400px) {
+  .last-img {
+    position: relative;
+    left: 50px;
+  }
+}
+footer p {
+  color: white;
+}
+footer {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.copyright {
+  margin-top: 100px;
 }
